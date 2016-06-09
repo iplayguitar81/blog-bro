@@ -180,3 +180,6 @@ Route::resource('ratings', 'RatingsController');
 Route::post('posts/search', ['as' => 'posts.search', 'uses'=>'PostsController@getIndex']);
 
 Route::get('search', 'PostsController@getIndex');
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
