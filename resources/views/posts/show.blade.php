@@ -12,6 +12,7 @@
 
     <div class="row">
         <div class="col-md-12">
+            test...
 
             <article class="center-block">
                 <h1 class="article-title-show" style="font-family: Pacifico, cursive;font-size:4em;line-height:1em;text-align:center;">{{ $post->title }}</h1>
