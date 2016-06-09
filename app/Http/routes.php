@@ -12,7 +12,6 @@
 */
 use App\Post;
 use App\User;
-
 use AdamWathan\EloquentOAuth\Facades\OAuth;
 //use App\Rating;
 
@@ -24,7 +23,7 @@ use AdamWathan\EloquentOAuth\Facades\OAuth;
 //use Stevebauman\Location\Objects\Location;
 //use Stevebauman\Location\Facades\Location;
 
-
+use Torann\GeoIP\GeoIPFacade as GeoIP;
 
 
 use willvincent\Rateable\Rating;
@@ -32,12 +31,11 @@ use willvincent\Rateable\Rating;
 use willvincent\Rateable\Rateable;
 Route::get('/', function () {
 
-    
-
+    $location = GeoIP::getLocation();
     $posts = Post::orderBy('created_at', 'desc')->paginate(3);
     $users = User::all();
     $ratings =Rating::all();
-    return view('welcome', compact('posts', 'users','ratings'));
+    return view('welcome', compact('posts', 'users','ratings','location'));
 });
 
 //social login package establish authorize route......
@@ -52,7 +50,7 @@ Route::get('github/login', function(){
         $user->name = $userDetails->full_name;
 
         $user->save();
-      //  dd($userDetails);
+        //  dd($userDetails);
     });
     return Redirect::intended();
 
@@ -140,21 +138,21 @@ Route::get('/posts/post_rating', ['as' => 'posts.post_rating','uses'=>'PostsCont
 
 
 Route::group(['middleware' => ['web']], function () {
-	Route::resource('posts', 'PostsController');
-    Route::get('posts/{id}/{title}', ['as' => 'posts.show', 'uses' => 'PostsController@show']);
-    Route::get('/show_user/{id}', ['as' => 'posts.show_user', 'uses'=>'PostsController@show_user']);
-    Route::auth();
+    Route::resource('posts', 'PostsController');
+
 
 
 
 });
 
+Route::get('posts/{id}/{title}', ['as' => 'posts.show', 'uses' => 'PostsController@show']);
 
+Route::get('/show_user/{id}', ['as' => 'posts.show_user', 'uses'=>'PostsController@show_user']);
 
 
 Route::resource('posts', 'PostsController');
 
-
+Route::auth();
 
 Route::get('/home', 'HomeController@index');
 
@@ -181,6 +179,3 @@ Route::resource('ratings', 'RatingsController');
 Route::post('posts/search', ['as' => 'posts.search', 'uses'=>'PostsController@getIndex']);
 
 Route::get('search', 'PostsController@getIndex');
-Route::auth();
-
-Route::get('/home', 'HomeController@index');
