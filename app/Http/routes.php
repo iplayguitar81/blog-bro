@@ -141,15 +141,15 @@ Route::get('/posts/post_rating', ['as' => 'posts.post_rating','uses'=>'PostsCont
 
 Route::group(['middleware' => ['web']], function () {
 	Route::resource('posts', 'PostsController');
+    Route::get('posts/{id}/{title}', ['as' => 'posts.show', 'uses' => 'PostsController@show']);
+    Route::get('/show_user/{id}', ['as' => 'posts.show_user', 'uses'=>'PostsController@show_user']);
     Route::auth();
 
 
 
 });
 
-Route::get('posts/{id}/{title}', ['as' => 'posts.show', 'uses' => 'PostsController@show']);
 
-Route::get('/show_user/{id}', ['as' => 'posts.show_user', 'uses'=>'PostsController@show_user']);
 
 
 Route::resource('posts', 'PostsController');
