@@ -1,0 +1,1157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7806dbca-c4c8-44f3-9656-10e58221df8d" name="Default" comment="get win 10 laravel started yeahhhhhh" />
+    <ignored path="blog.dev.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="blog.dev" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/posts/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1156">
+              <caret line="68" column="23" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
+              <folding>
+                <marker date="1464594309276" expanded="true" signature="2271:2476" ph="..." />
+                <marker date="1464594309276" expanded="true" signature="2283:2474" ph="..." />
+                <marker date="1464594309276" expanded="true" signature="2284:2473" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1853">
+              <caret line="109" column="13" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="338" column="0" selection-start-line="338" selection-start-column="0" selection-end-line="338" selection-end-column="0" />
+              <folding>
+                <marker date="1465433182521" expanded="true" signature="127671:127690" ph="..." />
+                <marker date="1465433182521" expanded="true" signature="127682:127689" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2584">
+              <caret line="179" column="0" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+              <folding>
+                <element signature="e#393#406#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show_user.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/posts/show_user.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/map.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <marker date="1465291783500" expanded="true" signature="12278:12292" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostsController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6086">
+              <caret line="386" column="0" selection-start-line="386" selection-start-column="0" selection-end-line="386" selection-end-column="0" />
+              <folding>
+                <element signature="e#40#62#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/posts/search.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/about/contact.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+              <folding>
+                <marker date="1464339709257" expanded="true" signature="4209:4344" ph="..." />
+                <marker date="1464339709257" expanded="true" signature="4221:4342" ph="..." />
+                <marker date="1464339709257" expanded="true" signature="4253:4341" ph="..." />
+                <marker date="1464339709257" expanded="true" signature="4468:4614" ph="..." />
+                <marker date="1464339709257" expanded="true" signature="4480:4612" ph="..." />
+                <marker date="1464339709257" expanded="true" signature="4513:4611" ph="..." />
+                <marker date="1464339709257" expanded="true" signature="4736:4881" ph="..." />
+                <marker date="1464339709257" expanded="true" signature="4752:4879" ph="..." />
+                <marker date="1464339709257" expanded="true" signature="4787:4878" ph="..." />
+                <marker date="1464339709257" expanded="true" signature="4954:5041" ph="..." />
+                <marker date="1464339709257" expanded="true" signature="4968:5039" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/config/mail.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/AboutController.php" />
+        <option value="$PROJECT_DIR$/resources/views/emails/contact.blade.php" />
+        <option value="$PROJECT_DIR$/public/.htaccess" />
+        <option value="$PROJECT_DIR$/public/css/uikit.docs.min.css" />
+        <option value="$PROJECT_DIR$/public/js/uikit.min.js" />
+        <option value="$PROJECT_DIR$/public/js/bootstrap.min.js" />
+        <option value="$PROJECT_DIR$/public/css/test-check.css" />
+        <option value="$PROJECT_DIR$/resources/views/footer.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/posts/edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/posts/user_posts.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/about/contact.blade.php" />
+        <option value="$PROJECT_DIR$/config/excel.php" />
+        <option value="$PROJECT_DIR$/app/UserListImport.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_05_29_044511_add_subhead_imgpath_columns_to_posts.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_05_02_073913_create_posts_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_05_29_042855_add_fields_to_posts.php" />
+        <option value="$PROJECT_DIR$/resources/lang/en/posts.php" />
+        <option value="$PROJECT_DIR$/app/test-file.csv" />
+        <option value="$PROJECT_DIR$/public/images/index.blade.php" />
+        <option value="$PROJECT_DIR$/public/images/index.php" />
+        <option value="$PROJECT_DIR$/resources/views/posts/file_upload.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/posts/file_export.blade.php" />
+        <option value="$PROJECT_DIR$/resources/lang/en/ratings.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/RatingsController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_05_31_014228_create_ratings_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_05_31_034447_create_ratings_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/posts/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/posts/index.blade.php" />
+        <option value="$PROJECT_DIR$/vendor/willvincent/laravel-rateable/src/Rateable/Rating.php" />
+        <option value="$PROJECT_DIR$/app/Post.php" />
+        <option value="$PROJECT_DIR$/app/Rating.php" />
+        <option value="$PROJECT_DIR$/resources/views/posts/post_rating.blade.php" />
+        <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
+        <option value="$PROJECT_DIR$/resources/views/sidebar.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
+        <option value="$PROJECT_DIR$/public/js/star-rating.js" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/posts/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/posts/show_user.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/public/js/jquery.validate.min.js" />
+        <option value="$PROJECT_DIR$/resources/views/map.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/posts/search.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layout.blade.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="322" />
+    <option name="y" value="143" />
+    <option name="width" value="1120" />
+    <option name="height" value="774" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghost-hits.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghost-hits.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghost-hits.dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mrcsnyder\blog.dev\public\images" />
+      <recent name="C:\Users\mrcsnyder\blog.dev\public\fonts" />
+      <recent name="C:\Users\mrcsnyder\blog.dev\database\migrations" />
+      <recent name="C:\Users\mrcsnyder\blog.dev\app" />
+      <recent name="C:\Users\mrcsnyder\blog.dev\public\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mrcsnyder\blog.dev\resources\views\posts" />
+      <recent name="C:\Users\mrcsnyder\blog.dev\storage\app\public" />
+      <recent name="C:\Users\mrcsnyder\blog.dev\public\css\fonts" />
+      <recent name="C:\Users\mrcsnyder\blog.dev\public" />
+      <recent name="C:\Users\mrcsnyder\blog.dev\resources\assets" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="false" name="contact.blade.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://bowtiesoft.com/resources/views/about/contact.blade.php">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.contact.blade.php" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7806dbca-c4c8-44f3-9656-10e58221df8d" name="Default" comment="" />
+      <created>1462171295737</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1462171295737</updated>
+      <workItem from="1462171296887" duration="2513000" />
+      <workItem from="1462259967468" duration="10213000" />
+      <workItem from="1462336160114" duration="19696000" />
+      <workItem from="1462599165278" duration="9550000" />
+      <workItem from="1463115123028" duration="23000" />
+      <workItem from="1463115188975" duration="10364000" />
+      <workItem from="1463642098870" duration="43964000" />
+      <workItem from="1463903766179" duration="112049000" />
+      <workItem from="1464313532586" duration="80000" />
+      <workItem from="1464313653076" duration="114000" />
+      <workItem from="1464313828752" duration="136000" />
+      <workItem from="1464314007581" duration="185054000" />
+      <workItem from="1465109487532" duration="39703000" />
+      <workItem from="1465448948034" duration="255000" />
+      <workItem from="1465449564250" duration="40000" />
+    </task>
+    <task id="LOCAL-01804" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465374399817</created>
+      <option name="number" value="01804" />
+      <option name="presentableId" value="LOCAL-01804" />
+      <option name="project" value="LOCAL" />
+      <updated>1465374399817</updated>
+    </task>
+    <task id="LOCAL-01805" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465374520740</created>
+      <option name="number" value="01805" />
+      <option name="presentableId" value="LOCAL-01805" />
+      <option name="project" value="LOCAL" />
+      <updated>1465374520740</updated>
+    </task>
+    <task id="LOCAL-01806" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465374563785</created>
+      <option name="number" value="01806" />
+      <option name="presentableId" value="LOCAL-01806" />
+      <option name="project" value="LOCAL" />
+      <updated>1465374563785</updated>
+    </task>
+    <task id="LOCAL-01807" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465374648023</created>
+      <option name="number" value="01807" />
+      <option name="presentableId" value="LOCAL-01807" />
+      <option name="project" value="LOCAL" />
+      <updated>1465374648023</updated>
+    </task>
+    <task id="LOCAL-01808" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465374695993</created>
+      <option name="number" value="01808" />
+      <option name="presentableId" value="LOCAL-01808" />
+      <option name="project" value="LOCAL" />
+      <updated>1465374695993</updated>
+    </task>
+    <task id="LOCAL-01809" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465374768482</created>
+      <option name="number" value="01809" />
+      <option name="presentableId" value="LOCAL-01809" />
+      <option name="project" value="LOCAL" />
+      <updated>1465374768482</updated>
+    </task>
+    <task id="LOCAL-01810" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465374807903</created>
+      <option name="number" value="01810" />
+      <option name="presentableId" value="LOCAL-01810" />
+      <option name="project" value="LOCAL" />
+      <updated>1465374807903</updated>
+    </task>
+    <task id="LOCAL-01811" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465374881599</created>
+      <option name="number" value="01811" />
+      <option name="presentableId" value="LOCAL-01811" />
+      <option name="project" value="LOCAL" />
+      <updated>1465374881599</updated>
+    </task>
+    <task id="LOCAL-01812" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465374925154</created>
+      <option name="number" value="01812" />
+      <option name="presentableId" value="LOCAL-01812" />
+      <option name="project" value="LOCAL" />
+      <updated>1465374925154</updated>
+    </task>
+    <task id="LOCAL-01813" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465375060046</created>
+      <option name="number" value="01813" />
+      <option name="presentableId" value="LOCAL-01813" />
+      <option name="project" value="LOCAL" />
+      <updated>1465375060046</updated>
+    </task>
+    <task id="LOCAL-01814" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465375112175</created>
+      <option name="number" value="01814" />
+      <option name="presentableId" value="LOCAL-01814" />
+      <option name="project" value="LOCAL" />
+      <updated>1465375112175</updated>
+    </task>
+    <task id="LOCAL-01815" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465375167295</created>
+      <option name="number" value="01815" />
+      <option name="presentableId" value="LOCAL-01815" />
+      <option name="project" value="LOCAL" />
+      <updated>1465375167295</updated>
+    </task>
+    <task id="LOCAL-01816" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465375214445</created>
+      <option name="number" value="01816" />
+      <option name="presentableId" value="LOCAL-01816" />
+      <option name="project" value="LOCAL" />
+      <updated>1465375214445</updated>
+    </task>
+    <task id="LOCAL-01817" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465375230447</created>
+      <option name="number" value="01817" />
+      <option name="presentableId" value="LOCAL-01817" />
+      <option name="project" value="LOCAL" />
+      <updated>1465375230447</updated>
+    </task>
+    <task id="LOCAL-01818" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465375343221</created>
+      <option name="number" value="01818" />
+      <option name="presentableId" value="LOCAL-01818" />
+      <option name="project" value="LOCAL" />
+      <updated>1465375343221</updated>
+    </task>
+    <task id="LOCAL-01819" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465375427067</created>
+      <option name="number" value="01819" />
+      <option name="presentableId" value="LOCAL-01819" />
+      <option name="project" value="LOCAL" />
+      <updated>1465375427067</updated>
+    </task>
+    <task id="LOCAL-01820" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465375469941</created>
+      <option name="number" value="01820" />
+      <option name="presentableId" value="LOCAL-01820" />
+      <option name="project" value="LOCAL" />
+      <updated>1465375469941</updated>
+    </task>
+    <task id="LOCAL-01821" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465375519464</created>
+      <option name="number" value="01821" />
+      <option name="presentableId" value="LOCAL-01821" />
+      <option name="project" value="LOCAL" />
+      <updated>1465375519464</updated>
+    </task>
+    <task id="LOCAL-01822" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465375541475</created>
+      <option name="number" value="01822" />
+      <option name="presentableId" value="LOCAL-01822" />
+      <option name="project" value="LOCAL" />
+      <updated>1465375541475</updated>
+    </task>
+    <task id="LOCAL-01823" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465375694225</created>
+      <option name="number" value="01823" />
+      <option name="presentableId" value="LOCAL-01823" />
+      <option name="project" value="LOCAL" />
+      <updated>1465375694225</updated>
+    </task>
+    <task id="LOCAL-01824" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465375770586</created>
+      <option name="number" value="01824" />
+      <option name="presentableId" value="LOCAL-01824" />
+      <option name="project" value="LOCAL" />
+      <updated>1465375770586</updated>
+    </task>
+    <task id="LOCAL-01825" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465375899271</created>
+      <option name="number" value="01825" />
+      <option name="presentableId" value="LOCAL-01825" />
+      <option name="project" value="LOCAL" />
+      <updated>1465375899271</updated>
+    </task>
+    <task id="LOCAL-01826" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465375948940</created>
+      <option name="number" value="01826" />
+      <option name="presentableId" value="LOCAL-01826" />
+      <option name="project" value="LOCAL" />
+      <updated>1465375948940</updated>
+    </task>
+    <task id="LOCAL-01827" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465376157355</created>
+      <option name="number" value="01827" />
+      <option name="presentableId" value="LOCAL-01827" />
+      <option name="project" value="LOCAL" />
+      <updated>1465376157355</updated>
+    </task>
+    <task id="LOCAL-01828" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465376235900</created>
+      <option name="number" value="01828" />
+      <option name="presentableId" value="LOCAL-01828" />
+      <option name="project" value="LOCAL" />
+      <updated>1465376235900</updated>
+    </task>
+    <task id="LOCAL-01829" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465376348271</created>
+      <option name="number" value="01829" />
+      <option name="presentableId" value="LOCAL-01829" />
+      <option name="project" value="LOCAL" />
+      <updated>1465376348271</updated>
+    </task>
+    <task id="LOCAL-01830" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465376470500</created>
+      <option name="number" value="01830" />
+      <option name="presentableId" value="LOCAL-01830" />
+      <option name="project" value="LOCAL" />
+      <updated>1465376470500</updated>
+    </task>
+    <task id="LOCAL-01831" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465377357199</created>
+      <option name="number" value="01831" />
+      <option name="presentableId" value="LOCAL-01831" />
+      <option name="project" value="LOCAL" />
+      <updated>1465377357199</updated>
+    </task>
+    <task id="LOCAL-01832" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465377376155</created>
+      <option name="number" value="01832" />
+      <option name="presentableId" value="LOCAL-01832" />
+      <option name="project" value="LOCAL" />
+      <updated>1465377376155</updated>
+    </task>
+    <task id="LOCAL-01833" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465377429491</created>
+      <option name="number" value="01833" />
+      <option name="presentableId" value="LOCAL-01833" />
+      <option name="project" value="LOCAL" />
+      <updated>1465377429491</updated>
+    </task>
+    <task id="LOCAL-01834" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465377460010</created>
+      <option name="number" value="01834" />
+      <option name="presentableId" value="LOCAL-01834" />
+      <option name="project" value="LOCAL" />
+      <updated>1465377460010</updated>
+    </task>
+    <task id="LOCAL-01835" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465377722220</created>
+      <option name="number" value="01835" />
+      <option name="presentableId" value="LOCAL-01835" />
+      <option name="project" value="LOCAL" />
+      <updated>1465377722220</updated>
+    </task>
+    <task id="LOCAL-01836" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465377853941</created>
+      <option name="number" value="01836" />
+      <option name="presentableId" value="LOCAL-01836" />
+      <option name="project" value="LOCAL" />
+      <updated>1465377853941</updated>
+    </task>
+    <task id="LOCAL-01837" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465377936063</created>
+      <option name="number" value="01837" />
+      <option name="presentableId" value="LOCAL-01837" />
+      <option name="project" value="LOCAL" />
+      <updated>1465377936063</updated>
+    </task>
+    <task id="LOCAL-01838" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465377982655</created>
+      <option name="number" value="01838" />
+      <option name="presentableId" value="LOCAL-01838" />
+      <option name="project" value="LOCAL" />
+      <updated>1465377982655</updated>
+    </task>
+    <task id="LOCAL-01839" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465378228273</created>
+      <option name="number" value="01839" />
+      <option name="presentableId" value="LOCAL-01839" />
+      <option name="project" value="LOCAL" />
+      <updated>1465378228273</updated>
+    </task>
+    <task id="LOCAL-01840" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465378310035</created>
+      <option name="number" value="01840" />
+      <option name="presentableId" value="LOCAL-01840" />
+      <option name="project" value="LOCAL" />
+      <updated>1465378310035</updated>
+    </task>
+    <task id="LOCAL-01841" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465378357887</created>
+      <option name="number" value="01841" />
+      <option name="presentableId" value="LOCAL-01841" />
+      <option name="project" value="LOCAL" />
+      <updated>1465378357887</updated>
+    </task>
+    <task id="LOCAL-01842" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465378464929</created>
+      <option name="number" value="01842" />
+      <option name="presentableId" value="LOCAL-01842" />
+      <option name="project" value="LOCAL" />
+      <updated>1465378464929</updated>
+    </task>
+    <task id="LOCAL-01843" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465378531690</created>
+      <option name="number" value="01843" />
+      <option name="presentableId" value="LOCAL-01843" />
+      <option name="project" value="LOCAL" />
+      <updated>1465378531690</updated>
+    </task>
+    <task id="LOCAL-01844" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465378560473</created>
+      <option name="number" value="01844" />
+      <option name="presentableId" value="LOCAL-01844" />
+      <option name="project" value="LOCAL" />
+      <updated>1465378560473</updated>
+    </task>
+    <task id="LOCAL-01845" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465378590415</created>
+      <option name="number" value="01845" />
+      <option name="presentableId" value="LOCAL-01845" />
+      <option name="project" value="LOCAL" />
+      <updated>1465378590415</updated>
+    </task>
+    <task id="LOCAL-01846" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465378652939</created>
+      <option name="number" value="01846" />
+      <option name="presentableId" value="LOCAL-01846" />
+      <option name="project" value="LOCAL" />
+      <updated>1465378652939</updated>
+    </task>
+    <task id="LOCAL-01847" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465378817375</created>
+      <option name="number" value="01847" />
+      <option name="presentableId" value="LOCAL-01847" />
+      <option name="project" value="LOCAL" />
+      <updated>1465378817375</updated>
+    </task>
+    <task id="LOCAL-01848" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465378859895</created>
+      <option name="number" value="01848" />
+      <option name="presentableId" value="LOCAL-01848" />
+      <option name="project" value="LOCAL" />
+      <updated>1465378859895</updated>
+    </task>
+    <task id="LOCAL-01849" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465378927203</created>
+      <option name="number" value="01849" />
+      <option name="presentableId" value="LOCAL-01849" />
+      <option name="project" value="LOCAL" />
+      <updated>1465378927203</updated>
+    </task>
+    <task id="LOCAL-01850" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465378955219</created>
+      <option name="number" value="01850" />
+      <option name="presentableId" value="LOCAL-01850" />
+      <option name="project" value="LOCAL" />
+      <updated>1465378955219</updated>
+    </task>
+    <task id="LOCAL-01851" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465379413275</created>
+      <option name="number" value="01851" />
+      <option name="presentableId" value="LOCAL-01851" />
+      <option name="project" value="LOCAL" />
+      <updated>1465379413275</updated>
+    </task>
+    <task id="LOCAL-01852" summary="get win 10 laravel started yeahhhhhh">
+      <created>1465433185630</created>
+      <option name="number" value="01852" />
+      <option name="presentableId" value="LOCAL-01852" />
+      <option name="project" value="LOCAL" />
+      <updated>1465433185630</updated>
+    </task>
+    <option name="localTasksCounter" value="1853" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="433754000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="322" y="143" width="1120" height="774" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21929102" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29166666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36445785" sideWeight="0.5135357" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33138686" sideWeight="0.4964476" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34548104" sideWeight="0.49646017" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32784432" sideWeight="0.48646432" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41253644" sideWeight="0.4964176" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="get win 10 laravel started yeahhhhhh" />
+    <option name="LAST_COMMIT_MESSAGE" value="get win 10 laravel started yeahhhhhh" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="2534" column="30" selection-start-line="2534" selection-start-column="30" selection-end-line="2534" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RatingsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="42" column="2" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/posts/file_upload.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/en/ratings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/en/validation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_31_034447_create_ratings_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_31_014228_create_ratings_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/en/posts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/UserListImport.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/ratings/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/posts/post_rating.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Rating.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/willvincent/laravel-rateable/src/Rateable/RateableServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-234">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/Access/AuthorizesRequests.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/willvincent/laravel-rateable/src/Rateable/Rateable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/willvincent/laravel-rateable/src/Rateable/Rating.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Events/Event.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Jobs/Job.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/posts/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/ratings/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/sidebar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/star-rating.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="515" column="29" selection-start-line="515" selection-start-column="29" selection-end-line="515" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/stevebauman/location/src/Config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="95" column="31" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/jquery.validate.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20894" selection-start-line="0" selection-start-column="20894" selection-end-line="0" selection-end-column="20894" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="130" column="49" selection-start-line="130" selection-start-column="49" selection-end-line="130" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/posts/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="178" column="31" selection-start-line="178" selection-start-column="31" selection-end-line="178" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/map.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <marker date="1465291783500" expanded="true" signature="12278:12292" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/posts/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="23" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
+          <folding>
+            <marker date="1464594309276" expanded="true" signature="2271:2476" ph="..." />
+            <marker date="1464594309276" expanded="true" signature="2283:2474" ph="..." />
+            <marker date="1464594309276" expanded="true" signature="2284:2473" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2584">
+          <caret line="179" column="0" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+          <folding>
+            <element signature="e#393#406#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/posts/show_user.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1853">
+          <caret line="109" column="13" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6086">
+          <caret line="386" column="0" selection-start-line="386" selection-start-column="0" selection-end-line="386" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/about/contact.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <marker date="1464339709257" expanded="true" signature="4209:4344" ph="..." />
+            <marker date="1464339709257" expanded="true" signature="4221:4342" ph="..." />
+            <marker date="1464339709257" expanded="true" signature="4253:4341" ph="..." />
+            <marker date="1464339709257" expanded="true" signature="4468:4614" ph="..." />
+            <marker date="1464339709257" expanded="true" signature="4480:4612" ph="..." />
+            <marker date="1464339709257" expanded="true" signature="4513:4611" ph="..." />
+            <marker date="1464339709257" expanded="true" signature="4736:4881" ph="..." />
+            <marker date="1464339709257" expanded="true" signature="4752:4879" ph="..." />
+            <marker date="1464339709257" expanded="true" signature="4787:4878" ph="..." />
+            <marker date="1464339709257" expanded="true" signature="4954:5041" ph="..." />
+            <marker date="1464339709257" expanded="true" signature="4968:5039" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/posts/search.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="338" column="0" selection-start-line="338" selection-start-column="0" selection-end-line="338" selection-end-column="0" />
+          <folding>
+            <marker date="1465433182521" expanded="true" signature="127671:127690" ph="..." />
+            <marker date="1465433182521" expanded="true" signature="127682:127689" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
