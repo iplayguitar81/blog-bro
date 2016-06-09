@@ -63,7 +63,7 @@
             {{--*/ @ $rate_pct_reviewer = (($rating->rating/5)*100); /*--}}
 
 
-                @if( $post->user_id== Auth::user()->id)
+                @if($rating->user_id== App\Auth::user()->id || $post->user_id== App\Auth::user()->id)
                     {{--*/ @ $hide_rating_form = true; /*--}}
                 @endif
 
