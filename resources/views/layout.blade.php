@@ -283,7 +283,7 @@ p.article-texterson:first-letter{color:#E63C4D;font-size:1.7em;text-shadow:1px 1
                 <!-- put text here if want/need be-->
 
             </a>
-            <a class="navbar-brand" href="{{url('/')}}" style="font-family:Pacifico,cursive; font-size: 2em;color: #D71B32;text-shadow: #230D10 1px 1px 1px;">
+            <a class="navbar-brand" href="{{url('/')}}" style="font-family:'Press Start 2P',cursive; font-size: 2em;color: #D71B32;text-shadow: #230D10 1px 1px 1px;">
                 Ghosthits
             </a>
         </div>
@@ -434,8 +434,9 @@ p.article-texterson:first-letter{color:#E63C4D;font-size:1.7em;text-shadow:1px 1
         {{--document.querySelector("head").appendChild(link);--}}
     {{--})();--}}
 {{--</script>--}}
+
 <style scoped>
-    @import "https://fonts.googleapis.com/css?family=Pacifico";
+    @import "https://fonts.googleapis.com/css?family=Press+Start+2P";
     @import "https://fonts.googleapis.com/css?family=Boogaloo";
     @import "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
     @import "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
