@@ -279,7 +279,7 @@ p.article-texterson:first-letter{color:#E63C4D;font-size:1.7em;text-shadow:1px 1
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="{{url('/')}}">
-                <img src="{{url('images/bowtie-brand-transparent.png')}}"alt="">
+                <img src="{{url('images/ghosthits-branded.png')}}"alt="">
                 <!-- put text here if want/need be-->
 
             </a>
