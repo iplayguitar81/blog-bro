@@ -30,6 +30,7 @@ class AuthServiceProvider extends ServiceProvider
             return $user->admin ==1;
 
         });
+        
 
         $gate->define('loggedIn', function($user){
 
