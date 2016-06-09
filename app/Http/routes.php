@@ -141,7 +141,7 @@ Route::get('/posts/post_rating', ['as' => 'posts.post_rating','uses'=>'PostsCont
 
 Route::group(['middleware' => ['web']], function () {
 	Route::resource('posts', 'PostsController');
-
+    Route::auth();
 
 
 
@@ -154,7 +154,7 @@ Route::get('/show_user/{id}', ['as' => 'posts.show_user', 'uses'=>'PostsControll
 
 Route::resource('posts', 'PostsController');
 
-Route::auth();
+
 
 Route::get('/home', 'HomeController@index');
 
