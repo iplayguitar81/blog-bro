@@ -31,6 +31,7 @@ use willvincent\Rateable\Rating;
 use willvincent\Rateable\Rateable;
 Route::get('/', function () {
 
+    
 
     $posts = Post::orderBy('created_at', 'desc')->paginate(3);
     $users = User::all();
