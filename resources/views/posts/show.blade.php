@@ -64,7 +64,7 @@
         @foreach($post_ratings as $rating)
             {{--*/ @ $rate_pct_reviewer = (($rating->rating/5)*100); /*--}}
             @if(Auth::user())
-                @if($rating->user_id== Auth::user()->id || $post->user_id== Auth::user()->id)
+                @if($rating->user_id== \Auth::user()->id || $post->user_id== \Auth::user()->id)
                     {{--*/ @ $hide_rating_form = true; /*--}}
                 @endif
             @endif
