@@ -10,141 +10,141 @@
 @section('title', $post->title)
 @section('content')
 
-<div class="row">
-    <div class="col-md-12">
+    <div class="row">
+        <div class="col-md-12">
 
-    <article class="center-block">
-        <h1 class="article-title-show" style="font-family: Pacifico, cursive;font-size:4em;line-height:1em;text-align:center;">{{ $post->title }}</h1>
-        <p class="subheader-main" style="text-align:center;font-family: Boogaloo, cursive; font-size:3em;">{{ $post->subHead}}</p>
-        <p class="uk-article-meta" style="text-align:center;">
-            Written by <?
-            //below is one way to get the name of the author.....
-            ?>
+            <article class="center-block">
+                <h1 class="article-title-show" style="font-family: Pacifico, cursive;font-size:4em;line-height:1em;text-align:center;">{{ $post->title }}</h1>
+                <p class="subheader-main" style="text-align:center;font-family: Boogaloo, cursive; font-size:3em;">{{ $post->subHead}}</p>
+                <p class="uk-article-meta" style="text-align:center;">
+                    Written by <?
+                    //below is one way to get the name of the author.....
+                    ?>
 
-           @if($post->user_id != null)
-            <? $author = App\User::find($post->user_id)->name; ?>
+                    @if($post->user_id != null)
+                        <? $author = App\User::find($post->user_id)->name; ?>
 
-            {{$author}}
-            @endif
-            {{--@foreach($records as $record)--}}
-            {{--{{$record->name}}--}}
-            {{--@endforeach--}}
-            on {{ $post->created_at->format('M dS Y') }}
-        </p>
-        <p class="uk-article-lead"><img class="img-responsive center-block" src='{{"../../images/". $post->imgPath}}'></p>
-        <br/>
-        <div class="center-block">
-       <p class="article-texterson text-center"> {!! ($post->body) !!} </p>
-        </div>
-    </article>
-        </div>
-</div>
-<div class="row">
-        <br/>
-    <div class="col-md-12 text-center">
-        <input id="input-id" type="text" class="rating" name="starRate" data-size="md" readonly="true" value="{{$rating_avg}}" diabled="true" >
-        <p> Overall Average Article Rating: {{round($rating_avg,2)}}/5 Stars</p>
-        {{--*/ @ $hide_rating_form = false; /*--}}
-        <p>Number of Ratings: {{$rating_count}}</p>
-
-        @can('loggedIn')
-            @if( $hide_rating_form == false)
-                {{--<div class="alert-warning"><p class="text-center">You have already rated this article!  :D We assure you your rating has been figured into the total score!</p></div>--}}
-
-            @endif
-        @endcan
+                        {{$author}}
+                    @endif
+                    {{--@foreach($records as $record)--}}
+                    {{--{{$record->name}}--}}
+                    {{--@endforeach--}}
+                    on {{ $post->created_at->format('M dS Y') }}
+                </p>
+                <p class="uk-article-lead"><img class="img-responsive center-block" src='{{"../../images/". $post->imgPath}}'></p>
+                <br/>
+                <div class="center-block">
+                    <p class="article-texterson text-center"> {!! ($post->body) !!} </p>
+                </div>
+            </article>
         </div>
     </div>
+    <div class="row">
         <br/>
-<h2 class="text-center">Bowtie User Ratings</h2>
+        <div class="col-md-12 text-center">
+            <input id="input-id" type="text" class="rating" name="starRate" data-size="md" readonly="true" value="{{$rating_avg}}" diabled="true" >
+            <p> Overall Average Article Rating: {{round($rating_avg,2)}}/5 Stars</p>
+            {{--*/ @ $hide_rating_form = false; /*--}}
+            <p>Number of Ratings: {{$rating_count}}</p>
 
-        <div class="row">
-            @foreach($post_ratings as $rating)
-                {{--*/ @ $rate_pct_reviewer = (($rating->rating/5)*100); /*--}}
+            @can('loggedIn')
+                @if( $hide_rating_form == false)
+                    {{--<div class="alert-warning"><p class="text-center">You have already rated this article!  :D We assure you your rating has been figured into the total score!</p></div>--}}
 
-        @if(Auth::user())
-             @if($rating->user_id== Auth::user()->id or $post->user_id== Auth::user()->id)
-                {{--*/ @ $hide_rating_form = true; /*--}}
                 @endif
-        @endif
+            @endcan
+        </div>
+    </div>
+    <br/>
+    <h2 class="text-center">Bowtie User Ratings</h2>
+
+    <div class="row">
+        @foreach($post_ratings as $rating)
+            {{--*/ @ $rate_pct_reviewer = (($rating->rating/5)*100); /*--}}
+
+            @if(Auth::user())
+                @if($rating->user_id== Auth::user()->id || $post->user_id== Auth::user()->id)
+                    {{--*/ @ $hide_rating_form = true; /*--}}
+                @endif
+            @endif
             <? $author = App\User::find($rating->user_id)->name; ?>
 
-                    <div class="col-md-2 col-md-offset-1"><? $avatar = App\User::find($rating->user_id)->avatar; ?>
+            <div class="col-md-2 col-md-offset-1"><? $avatar = App\User::find($rating->user_id)->avatar; ?>
 
-                        @if(empty($avatar))
-                           <p> <img src="{{url('images/default-user-img.png')}}" class="img-circle avatar" alt="user profile image"></p>
+                @if(empty($avatar))
+                    <p> <img src="{{url('images/default-user-img.png')}}" class="img-circle avatar" alt="user profile image"></p>
 
-                        @else
+                @else
 
-                            <p><img src="{{$avatar}}" class="img-circle avatar" alt="user profile image"></p>
+                    <p><img src="{{$avatar}}" class="img-circle avatar" alt="user profile image"></p>
 
-                        @endif
-                        <p>rated by <a href="{{ url('/show_user/' . $rating->user_id) }}"> <b>{{$author}}</b></a></p>
+                @endif
+                <p>rated by <a href="{{ url('/show_user/' . $rating->user_id) }}"> <b>{{$author}}</b></a></p>
 
 
-                        <span class="text-muted time">{{$rating->created_at->format('M dS Y')}}</span>
+                <span class="text-muted time">{{$rating->created_at->format('M dS Y')}}</span>
 
-                    </div>
+            </div>
 
-                    <div class="col-md-6"><p>{{$rating->rate_message}}</p></div>
-                    <div class="col-md-2 offset-1">
+            <div class="col-md-6"><p>{{$rating->rate_message}}</p></div>
+            <div class="col-md-2 offset-1">
 
-                            <p>{{$rating->rating}}/5 Stars</p>
-                            <div class="rating2"><div class="stars"></div><div class="back" style="width:{{$rate_pct_reviewer}}%;"></div></div>
+                <p>{{$rating->rating}}/5 Stars</p>
+                <div class="rating2"><div class="stars"></div><div class="back" style="width:{{$rate_pct_reviewer}}%;"></div></div>
 
-                    </div>
-                </div>
-<hr>
+            </div>
+    </div>
+    <hr>
     <br/>
 
-        @endforeach
+    @endforeach
 
 
 
-        @can('loggedIn')
-@if( $hide_rating_form == false)
+    @can('loggedIn')
+        @if( $hide_rating_form == false)
 
-        <h2>Rate this article!!!</h2>
-        <hr>
+            <h2>Rate this article!!!</h2>
+            <hr>
 
-        {!! Form::open(array('url'=>'/posts/{id}/{title}')) !!}
-        {{--echo Form::open(array('url' => 'foo/bar', 'files' => true))--}}
-<div class="form-group center-block">
-        <div class="rate-width text-center">
-        <input id="input-id" type="text" class="rating" name="starRate" data-size="md" >
+            {!! Form::open(array('url'=>'/posts/{id}/{title}')) !!}
+            {{--echo Form::open(array('url' => 'foo/bar', 'files' => true))--}}
+            <div class="form-group center-block">
+                <div class="rate-width text-center">
+                    <input id="input-id" type="text" class="rating" name="starRate" data-size="md" >
+                </div>
             </div>
-</div>
-        {{--{!! Form::open(['url' => '/posts', 'class' => '', 'files' =>true]) !!}--}}
-        {{--{{ Form::selectRange('userRate', 1, 5) }}--}}
+            {{--{!! Form::open(['url' => '/posts', 'class' => '', 'files' =>true]) !!}--}}
+            {{--{{ Form::selectRange('userRate', 1, 5) }}--}}
 
-        <div class="form-group">
-            {!! Form::label('userRateMsg', 'Please Leave Comments With Your Rating', ['class' => '']) !!}
+            <div class="form-group">
+                {!! Form::label('userRateMsg', 'Please Leave Comments With Your Rating', ['class' => '']) !!}
 
-            {!! Form::hidden('post_id', $post->id, ['class' => 'form-control']) !!}
-            <div class="">
-                {!! Form::textarea('', null, ['class' => 'form-control', 'name'=>'userRateMsg', 'id'=>'userRateMsg']) !!}
-                {!! $errors->first('userRateMsg', '<p class="uk-alert-danger">:message</p>') !!}
+                {!! Form::hidden('post_id', $post->id, ['class' => 'form-control']) !!}
+                <div class="">
+                    {!! Form::textarea('', null, ['class' => 'form-control', 'name'=>'userRateMsg', 'id'=>'userRateMsg']) !!}
+                    {!! $errors->first('userRateMsg', '<p class="uk-alert-danger">:message</p>') !!}
+                </div>
             </div>
-        </div>
-        <br/>
-        <br/>
+            <br/>
+            <br/>
 
-        {!! Form::submit('Rate This Article', ['class' => 'btn btn-success form-control']) !!}
+            {!! Form::submit('Rate This Article', ['class' => 'btn btn-success form-control']) !!}
 
-        {!! Form::close() !!}
+            {!! Form::close() !!}
 
         @else
 
 
         @endif
-        @endcan
+    @endcan
 
-        <br/>
+    <br/>
 
-        <h2 class="text-center">Leave a Facebook Comment!</h2>
-        <div class="fb-comments center-block" data-href="https://www.bowtiesoft.com/posts/{{$post->id}}/{{str_slug($post->title)}}" data-numposts="10"></div>
+    <h2 class="text-center">Leave a Facebook Comment!</h2>
+    <div class="fb-comments center-block" data-href="https://www.bowtiesoft.com/posts/{{$post->id}}/{{str_slug($post->title)}}" data-numposts="10"></div>
 
-        <br/>
+    <br/>
 
 
 
@@ -159,7 +159,7 @@
 
         <button type="submit" class="btn btn-primary center-block btn-md">Back to All Posts</button>
     </a>
-   &nbsp;
+    &nbsp;
     <a href="{{url('/')}}">
 
         <button type="submit" class="btn btn-success center-block btn-md">Back Home</button>
@@ -167,7 +167,9 @@
 
     </div>
 
-    @endsection
+
+
+@endsection
 
 <script src="{{url('/js/jquery.js')}}"></script>
 <script src="{{url('/js/star-rating.js')}}"></script>
