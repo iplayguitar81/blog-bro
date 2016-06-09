@@ -14,6 +14,7 @@
                 "type": "git",
                 "url": "https://github.com/adamwathan/eloquent-oauth.git",
                 "reference": "2c74b7b1c36566e6ba76315582b17285311e53ad"
+
             },
             "dist": {
                 "type": "zip",
