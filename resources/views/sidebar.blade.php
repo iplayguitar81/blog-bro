@@ -66,7 +66,7 @@
             {{--<h3>Welcome!</h3>--}}
             {{--<p>Thank you for visiting Bowtie Software &amp; Web Development.  Please take time to like us on Facebook and/or follow us on Twitter!</p>--}}
         {{--</div>--}}
-        <div id="menu1" class="tab-pane fade">
+        <div id="menu1" class="tab-pane fade active">
             <h3>Facebook</h3>
             <div class="fb-page" data-href="https://www.facebook.com/Ghost-Hits-305087466247762" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/bowtiesoft/"><a href="https://www.facebook.com/bowtiesoft/">Bowtie Software &amp; Web Development</a></blockquote></div></div>
         </div>
