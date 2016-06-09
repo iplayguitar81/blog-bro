@@ -22,6 +22,7 @@ class AuthServiceProvider extends ServiceProvider
      * @param  \Illuminate\Contracts\Auth\Access\Gate  $gate
      * @return void
      */
+
     public function boot(GateContract $gate)
     {
         $this->registerPolicies($gate);
@@ -30,7 +31,7 @@ class AuthServiceProvider extends ServiceProvider
             return $user->admin ==1;
 
         });
-        
+       
 
         $gate->define('loggedIn', function($user){
 
