@@ -58,7 +58,7 @@
         </div>
     </div>
     <br/>
-    <h2 class="text-center">Bowtie User Ratings</h2>
+    <h2 class="text-center">GhostHits User Ratings</h2>
 
     <div class="row">
         @foreach($post_ratings as $rating)
