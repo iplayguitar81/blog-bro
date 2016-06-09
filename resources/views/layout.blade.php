@@ -284,7 +284,7 @@ p.article-texterson:first-letter{color:#E63C4D;font-size:1.7em;text-shadow:1px 1
 
             </a>
             <a class="navbar-brand" href="{{url('/')}}" style="font-family:'Press Start 2P',cursive; font-size: 2em;color: #D71B32;text-shadow: #230D10 1px 1px 1px;">
-                Ghosthits
+                GhostHits
             </a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
